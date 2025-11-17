@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my favorit places</title>
+    <title>my favorite places</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -16,22 +16,14 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <style>
-      .round_imd {
-        width: 60%;
-        border-radius: 30%;
-        box-shadow: 0 0 10px rgb(0, 0, 0, 04);
-        padding: 1em;
-        margin: 1em;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-         <a class="navbar-brand p-0" href="/">
-          <img src="dog.jpg" width="40" alt="dog">
-         </a> 
+        <a class="navbar-brand p-0" href="/">
+          <img src="dog.jpg" width="40" alt="dog" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,39 +38,64 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Favorite places</a>
+              <a class="nav-link active" href="pleces.html">Favorite places</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container text-center my-5">
-      <div class="row">
-        <div class="col-lg-4 mx-auto">
-          <img class="round_imd" src="DIMA.jpg" alt="Dmitriy" width="330" />
-          <h1 class="light">Dmitriy Chebotarev</h1>
-          <p class="lead text-muted">
-            Glory to Julius Caesar hi everything is fine just super great good
-            luck and happiness to everyone Of course, everything will be the
-            best for us.
-          </p>
-          <a
-            href="https://t.me/DmitriyZZSS"
-            target="_blank"
-            class="btn btn-primary"
-          >
-            My telegram
-          </a>
-          <a
-            href="https://id.vk.com/account?ref_app=6287487&flow_service=account_actions"
-            target="_blank"
-            class="btn btn-secondary"
-          >
-            My_vk
-          </a>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/736x/59/96/35/59963521b20ab94d39b1d064b83213e6.jpg"
+              class="card-img-top"
+              alt=".my image.."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mountains</h5>
+              <p class="card-text">
+                In the mountains, somewhere at a height.
+              </p>
+              <a href="gor.jpg" target="_blank" class="btn btn-primary">Large Photo</a>
+            </div>
+          </div>
+        </div>
+         <div class="col">
+          <div class="card">
+            <img
+              src="tango .jpg"
+              class="card-img-top"
+              alt=".my image.."
+            />
+            <div class="card-body">
+              <h5 class="card-title">The tango</h5>
+              <p class="card-text">
+                Yes, I really enjoyed dancing this dance.There was a time when I really danced the tango.
+              </p>
+              <a href="photo.jpg" target="_blank" class="btn btn-primary">Large Photo</a>
+            </div>
+          </div>
+        </div>
+         <div class="col">
+          <div class="card">
+            <img
+              src="Default_The_cat_and_Buddhists_in_meditation_1.jpg"
+              class="card-img-top"
+              alt=".my image.."
+            />
+            <div class="card-body">
+              <h5 class="card-title">My spiritual mentor</h5>
+              <p class="card-text">
+               My stern mentor who teaches me wisdom in life 
+              </p>
+              <a href="vidos.mp4" target="_blank" class="btn btn-primary">Large Video</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
